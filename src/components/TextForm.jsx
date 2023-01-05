@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const TextForm = () => {
+const TextForm = (props) => {
   const handleEvent = (event) => {
     setText(event.target.value);
   };
